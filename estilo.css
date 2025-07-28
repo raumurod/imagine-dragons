@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #181818;
+    color: #fff;
+}
+header {
+    background: #1a237e;
+    text-align: center;
+    padding: 40px 0 15px 0;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.7em;
+    letter-spacing: 2px;
+    color: #ffeb3b;
+}
+header nav {
+    margin-top: 20px;
+}
+header nav a {
+    color: #ffeb3b;
+    text-decoration: none;
+    margin: 0 18px;
+    font-size: 1.12em;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+header nav a:hover {
+    color: #fbc02d;
+}
+main {
+    max-width: 950px;
+    margin: 32px auto;
+    padding: 0 14px;
+}
+section {
+    margin-bottom: 40px;
+    background: #222851;
+    border-radius: 10px;
+    padding: 22px 18px;
+    box-shadow: 0 2px 12px #1112;
+}
+.galeria {
+    display: flex;
+    gap: 17px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.galeria img {
+    width: 190px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 7px;
+    box-shadow: 0 1px 8px #21212144;
+}
+#btn-galeria {
+    background: #ffeb3b;
+    color: #1a237e;
+    border: none;
+    border-radius: 7px;
+    padding: 9px 24px;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+#btn-galeria:hover {
+    background: #fbc02d;
+}
+#random-img img {
+    display: block;
+    margin: 20px auto 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px #312;
+    max-width: 95vw;
+    max-height: 340px;
+}
+form#form-suscripcion {
+    display: flex;
+    gap: 9px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+form#form-suscripcion input {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1em;
+    flex: 1 1 180px;
+}
+form#form-suscripcion button {
+    background: #26a69a;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 17px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+form#form-suscripcion button:hover {
+    background: #00897b;
+}
+#mensaje-suscripcion {
+    color: #cddc39;
+    margin-top: 7px;
+    font-weight: bold;
+}
+footer {
+    background: #222;
+    color: #ffd600;
+    text-align: center;
+    padding: 15px 0 10px 0;
+    font-size: 0.95em;
+    margin-top: 33px;
+    border-top: 2px solid #ffeb3b33;
+}
+@media (max-width:650px){
+    .galeria { flex-direction: column; align-items: center; gap: 12px;}
+    main { padding: 0 2vw;}
+    section { padding: 19px 7px; }
+}

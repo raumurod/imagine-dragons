@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Imagine Dragons - Landing Page</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Imagine Dragons</h1>
+        <p>Bienvenido al universo de Imagine Dragons</p>
+        <nav>
+            <a href="#biografia">Biografía</a>
+            <a href="#discografia">Discografía</a>
+            <a href="#galeria">Galería</a>
+            <a href="#suscripcion">Suscríbete</a>
+        </nav>
+    </header>
+    <main>
+        <section id="biografia">
+            <h2>Biografía</h2>
+            <p>
+                Imagine Dragons es una banda estadounidense de pop rock originaria de Las Vegas, formada por Dan Reynolds, Wayne Sermon y Ben McKee. Alcanzaron el reconocimiento internacional con éxitos como 
+                <strong>Radioactive</strong> y <strong>Demons</strong>, y han ganado premios como el Grammy y Billboard Music Awards.
+            </p>
+        </section>
+
+        <section id="discografia">
+            <h2>Discografía Destacada</h2>
+            <ul>
+                <li><strong>Night Visions</strong> (2012) — "Radioactive", "Demons"</li>
+                <li><strong>Smoke + Mirrors</strong> (2015) — "Gold", "I Bet My Life"</li>
+                <li><strong>Evolve</strong> (2017) — "Believer", "Thunder", "Whatever It Takes"</li>
+                <li><strong>Origins</strong> (2018) — "Natural", "Bad Liar"</li>
+                <li><strong>Mercury – Acts 1 & 2</strong> (2022) — "Enemy"</li>
+                <li><strong>Loom</strong> (2024)</li>
+            </ul>
+        </section>
+
+        <section id="galeria">
+            <h2>Galería</h2>
+            <div class="galeria">
+                <img src="img/evolve.jpg" alt="Imagine Dragons en concierto">
+                <img src="img/dreams.jpg" alt="Integrantes en escenario">
+                <img src="img/friction.jpg" alt="Fans de Imagine Dragons">
+            </div>
+            <button id="btn-galeria">Ver foto aleatoria</button>
+            <div id="random-img"></div>
+        </section>
+
+        <section id="suscripcion">
+            <h2>Suscríbete a noticias de Imagine Dragons</h2>
+            <form id="form-suscripcion">
+                <input type="email" placeholder="Tu email" required>
+                <button type="submit">Suscribirse</button>
+            </form>
+            <div id="mensaje-suscripcion"></div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Fanpage Imagine Dragons</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
